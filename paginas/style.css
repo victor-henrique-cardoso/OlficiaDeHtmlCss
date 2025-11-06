@@ -1,7 +1,17 @@
 body{
     background-color: antiquewhite;
+    text-align: center;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+              
+    
+  }
+  
 .carrossel {
+  
     width: 300px;
     height: 300px;
     overflow: hidden;
@@ -38,10 +48,49 @@ li{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-a{
-    color:rgba(255, 0, 0, 0.733) ;
-}
+a {
+    color: navy; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: 1.9s;
+  }
+
+ 
+  a:hover {
+    color: rgb(53, 53, 117);
+    text-decoration: none;
+    transform: scale(1.09);
+  }
 .icon{
     height: 20px;
     width: 20px;
+    align-items: center;
 }
+
+ul {
+    list-style-type: none;
+    gap: 5px;
+  }
+
+  .botao{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 20px;
+  }
+  
+  .bute{
+  
+    background-color: rgb(251, 252, 255);
+    color: navy; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: 1.9s;
+    border-radius: 10px;
+  }
+  .bute:hover{
+    color: rgb(53, 53, 117);
+    text-decoration: none;
+    transform: scale(1.09);
+  }
